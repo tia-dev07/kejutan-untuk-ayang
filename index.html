@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sebuah Kejutan Untukmu ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="hati">♥</div>
+    <div class="hati hati-dua">♥</div>
+    <div class="hati hati-tiga">♥</div>
+
+    <audio id="laguKita" loop>
+        <source src="music/lagu_kita.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- TOMBOL MUSIK -->
+    <button
+        id="tombolMusik"
+        class="tombol-musik"
+        onclick="toggleMusik()"
+        aria-label="Putar atau jeda musik"
+        aria-pressed="false"
+>
+        ♫ Musik
+    </button>
+
+    <main class="kartu" id="halaman">
+        <div class="mawar">🌹</div>
+
+        <p class="label">SEBUAH KEJUTAN KECIL</p>
+
+        <h1>Hai, Ayaang ❤️</h1>
+
+        <p class="deskripsi">
+            Aku punya sesuatu untuk kamu.
+            Sesuatu yang sederhana, tetapi aku membuatnya
+            khusus untuk seseorang yang begitu berarti bagiku.
+        </p>
+
+        <p class="pertanyaan">
+            Kamu siap menerima kejutan kecil dariku?
+        </p>
+
+        <button onclick="mulaiKejutan()">
+            Buka Kejutannya ♥
+        </button>
+
+        <p class="catatan">Dibuat khusus dengan penuh cinta.</p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
